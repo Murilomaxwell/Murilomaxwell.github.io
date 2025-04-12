@@ -1,0 +1,34 @@
+.body{
+  background-color:#606060;
+  height: 100vh;
+}
+.textolegal{
+  font-size: 60px;
+  font-weight: 300;
+  color: #fff;
+}
+.textolegal span{
+  position: relative;
+}
+.textolegal span::before{
+  content:"";
+  color: #f0797e;
+  animation:textoanimadu 30s infinite;
+}
+@keyframes textoanimadu{
+  0%,20% {
+    content:"Precisa de um computador?";
+  }
+  21%,40% {
+    content:"Que caiba no seu bolso?";
+  }
+  41%,60% {
+    content:"Que não seja mais de 1000 reais?";
+  }
+  61%,80% {
+    content:"E tambem que possa ensinar algo para seus filhos?";
+  }
+  81%,100% {
+    content:"Conheça o Rapberry Pi Modelo 5!";
+  }
+}
