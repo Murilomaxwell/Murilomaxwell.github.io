@@ -30,3 +30,12 @@
     content:"Conheça o Rapberry Pi Modelo 5!";
   }
 }
+.logo{
+  display:flex;
+  justify-content: start;
+  align-items: start;
+}
+.logor{
+  height: 25px;
+  width: 25px;
+}
