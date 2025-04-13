@@ -39,3 +39,37 @@
   height: 40px;
   width: 50px;
 }
+.img{
+  background-color: #E30B5C;
+  height:500px;
+  border-radius:10px;
+  width:800px;
+}
+.imgr{
+  position:absolute;
+  top:200px;
+  left:15px;
+  scale:0.9;
+}
+.text1{
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:white;
+  position:absolute;
+  top:200px;
+  left:430px;
+}
+.text2{
+    font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:white;
+  position:absolute;
+  top:430px;
+  left:420px;
+}
+.text2 a{
+  text-decoration: none;
+  background-color:yellow;
+  color: red;
+  border-radius:5px;
+}
